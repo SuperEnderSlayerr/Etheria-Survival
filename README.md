@@ -61,13 +61,11 @@ A React-based web application for calculating expected gold earnings and optimiz
 
 🌐 **[Try the Calculator](https://superenderslayerr.github.io/Etheria-Survival/)** - Live version with real encounter data!
 
-The hosted version includes actual Discord log data for full functionality, while keeping private messages out of the public repository.
-
 ## Installation & Setup
 
 ### Quick Start (Recommended)
 
-Visit the **[Live Demo](https://superenderslayerr.github.io/Etheria-Survival/)** - no setup required! The hosted version includes real encounter data.
+Visit the **[Live Demo](https://superenderslayerr.github.io/Etheria-Survival/)** - no setup required!
 
 ### Local Development
 
@@ -90,36 +88,21 @@ npm start
 
 The app will be available at `http://localhost:3000`
 
-### Data Setup
+### Using Your Own Server Data
 
-The **[hosted version](https://superenderslayerr.github.io/Etheria-Survival/)** includes real encounter data from the Etheria Discord server and works immediately!
+If you want to use data from your own Discord server instead of the included Etheria data:
 
-#### For Your Own Server Data
-If you want to use data from your own Discord server:
-
-**Option 1: Use the Upload Data Tab (Recommended)**
+**Option 1: Use the Upload Data Tab**
 - Visit the "Upload Data" tab in the app
 - Upload your Discord log files directly in the browser
-- Files are processed locally for privacy
+- Files are processed locally in your browser
 
-**Option 2: Local Development with Files**
+**Option 2: Replace the Data Files**
 1. **Export Discord logs**: Use [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
-2. **Place files in**: `public/txtData/` directory
+2. **Replace files in**: `public/txtData/` directory
 3. **Required filenames**:
    - `boiling-coast.txt`, `bubblin-bayou.txt`, `flaring-mountains.txt`
    - `redwood-glades.txt`, `scarlet-hills.txt`, `valley-of-fire.txt`, `whispering-grove.txt`
-
-**Privacy Note**: Private Discord messages are excluded from the public repository but included in the deployed version for functionality.
-
-#### For Developers: Deployment with Data
-If you're forking this project and want to deploy with your own server data:
-
-```bash
-# Deploy with your txtData files included (they won't be in main repo)
-npm run deploy-with-data
-```
-
-This command builds the app and includes files from `public/txtData/` in the deployment while keeping them out of the main repository.
 
 ### Building for Production
 ```bash

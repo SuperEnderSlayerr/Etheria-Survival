@@ -1,0 +1,25 @@
+# Sample Discord Log - Whispering Grove
+# This is anonymized sample data to demonstrate the app functionality
+# Real Discord logs containing private messages are not included in this repository
+
+[2024-01-15 10:30:15] GameMaster: Rolling for foraging in Whispering Grove...
+[2024-01-15 10:30:16] GameMaster: **Foraging Roll:** DC 15 | Roll: 18 | **Success!**
+[2024-01-15 10:30:16] GameMaster: You found: 2x Wild Berries, 1x Healing Herbs
+[2024-01-15 10:30:25] Player1: Sweet! Those berries will sell well.
+
+[2024-01-15 11:15:22] GameMaster: Rolling for large game hunting...
+[2024-01-15 11:15:23] GameMaster: **Hunt Large Roll:** AC 14 | Attack: 16 | **Hit!**
+[2024-01-15 11:15:23] GameMaster: You successfully hunted: 1x Deer Pelt, 3x Venison
+[2024-01-15 11:15:30] Player2: Nice shot!
+
+[2024-01-15 14:20:10] GameMaster: Rolling for foraging...
+[2024-01-15 14:20:11] GameMaster: **Foraging Roll:** DC 12 | Roll: 8 | **Failure**
+[2024-01-15 14:20:11] GameMaster: You found nothing of value this time.
+
+[2024-01-15 15:45:33] GameMaster: Rolling for small game hunting...
+[2024-01-15 15:45:34] GameMaster: **Hunt Small Roll:** AC 12 | Attack: 15 | **Hit!**
+[2024-01-15 15:45:34] GameMaster: You caught: 2x Rabbit Fur, 1x Small Game Meat
+
+[2024-01-15 16:30:40] GameMaster: Rolling for foraging...
+[2024-01-15 16:30:41] GameMaster: **Foraging Roll:** DC 15 | Roll: 19 | **Success!**
+[2024-01-15 16:30:41] GameMaster: You found: 1x Rare Mushroom, 3x Wild Berries
