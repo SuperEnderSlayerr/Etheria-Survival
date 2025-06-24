@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Etheria-Survival/static/css/main.ee125536.css",
+    "main.js": "/Etheria-Survival/static/js/main.6051411e.js",
+    "index.html": "/Etheria-Survival/index.html",
+    "main.ee125536.css.map": "/Etheria-Survival/static/css/main.ee125536.css.map",
+    "main.6051411e.js.map": "/Etheria-Survival/static/js/main.6051411e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee125536.css",
+    "static/js/main.6051411e.js"
+  ]
+}
