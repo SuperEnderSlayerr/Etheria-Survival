@@ -57,22 +57,32 @@ A React-based web application for calculating expected gold earnings and optimiz
 - Manual AC extraction from recent hunting encounters
 - Gold value mappings for all harvestable items
 
+## Live Demo
+
+🌐 **[Try the Calculator](https://superenderslayerr.github.io/Etheria-Survival/)** - Live version with real encounter data!
+
+The hosted version includes actual Discord log data for full functionality, while keeping private messages out of the public repository.
+
 ## Installation & Setup
 
-### Prerequisites
+### Quick Start (Recommended)
+
+Visit the **[Live Demo](https://superenderslayerr.github.io/Etheria-Survival/)** - no setup required! The hosted version includes real encounter data.
+
+### Local Development
+
+#### Prerequisites
 - Node.js 16+ 
 - npm or yarn
 
-### Getting Started
+#### Getting Started
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/etheria-survival-calculator.git
-cd etheria-survival-calculator
+git clone https://github.com/SuperEnderSlayerr/Etheria-Survival.git
+cd Etheria-Survival
 
 # Install dependencies
 npm install
-
-# Add your data files (see Data Setup below)
 
 # Start development server
 npm start
@@ -82,12 +92,24 @@ The app will be available at `http://localhost:3000`
 
 ### Data Setup
 
-**Privacy Model**: The Discord log files are excluded from the main repository for privacy, but the deployed version includes real data for full functionality.
+The **[hosted version](https://superenderslayerr.github.io/Etheria-Survival/)** includes real encounter data from the Etheria Discord server and works immediately!
 
-#### Option 1: Use the Hosted Version (Recommended)
-Visit [https://superenderslayerr.github.io/Etheria-Survival/](https://superenderslayerr.github.io/Etheria-Survival/)
+#### For Your Own Server Data
+If you want to use data from your own Discord server:
 
-The hosted version includes processed Discord log data and works immediately with full functionality. If you want to use your own server's data, use the **"Upload Data"** tab to load your Discord log files directly in the browser.
+**Option 1: Use the Upload Data Tab (Recommended)**
+- Visit the "Upload Data" tab in the app
+- Upload your Discord log files directly in the browser
+- Files are processed locally for privacy
+
+**Option 2: Local Development with Files**
+1. **Export Discord logs**: Use [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
+2. **Place files in**: `public/txtData/` directory
+3. **Required filenames**:
+   - `boiling-coast.txt`, `bubblin-bayou.txt`, `flaring-mountains.txt`
+   - `redwood-glades.txt`, `scarlet-hills.txt`, `valley-of-fire.txt`, `whispering-grove.txt`
+
+**Privacy Note**: Private Discord messages are excluded from the public repository but included in the deployed version for functionality.
 
 #### Option 2: Local Development
 For users running the app locally:
