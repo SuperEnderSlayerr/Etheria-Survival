@@ -1,0 +1,19 @@
+{
+  "name": "avrae-discord-scraper",
+  "version": "1.0.0",
+  "description": "Discord bot to scrape and analyze Avrae survival command results",
+  "main": "scrapeAvraeData.js",
+  "scripts": {
+    "start": "node scrapeAvraeData.js",
+    "analyze": "node analyzeData.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "csv-writer": "^1.6.0",
+    "fs-extra": "^11.2.0"
+  },
+  "keywords": ["discord", "avrae", "dnd", "bot", "scraper"],
+  "author": "Your Name",
+  "license": "MIT"
+}
