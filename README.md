@@ -82,20 +82,38 @@ The app will be available at `http://localhost:3000`
 
 ### Data Setup
 
-**Important**: The Discord log files are not included in this repository for privacy reasons. To use the calculator, you'll need:
+**Important**: The Discord log files are not included in this repository for privacy reasons. You have two options to use the calculator:
+
+#### Option 1: Use the Hosted Version (Recommended)
+Visit [https://superenderslayerr.github.io/Etheria-Survival/](https://superenderslayerr.github.io/Etheria-Survival/) and use the **"Upload Data"** tab to load your Discord log files directly in the browser.
+
+**Benefits:**
+- No setup required
+- Files processed locally (privacy-safe)
+- Works on any device with a browser
+- Instant data switching
+
+#### Option 2: Local Development
+For users running the app locally:
 
 1. **Discord log files**: Export your server's survival channel logs as .txt files
 2. **Place them in**: `public/txtData/` directory
 3. **Required files**:
    - `boiling-coast.txt`
-   - `bubblin-bayou.txt`
+   - `bubblin-bayou.txt` 
    - `flaring-mountains.txt`
    - `redwood-glades.txt`
    - `scarlet-hills.txt`
    - `valley-of-fire.txt`
    - `whispering-grove.txt`
 
-Without these files, the calculator will show "Loading encounter data..." but still demonstrate the UI.
+#### How to Export Discord Logs
+1. Use a Discord export tool like [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
+2. Export each survival location channel as a .txt file
+3. Rename the files to match the expected names listed above
+4. Either upload them via the web interface or place them in `public/txtData/` for local development
+
+**Without these files**, the calculator will use sample data for demonstration but won't reflect your actual server's encounters.
 
 ### Building for Production
 ```bash

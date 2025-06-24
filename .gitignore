@@ -24,4 +24,7 @@ yarn-error.log*
 
 # Discord log files containing private messages
 /public/txtData/
-*.txt
+# Exclude all .txt files in raw-data except sample files
+/public/data/raw-data/*.txt
+!/public/data/raw-data/sample-*.txt
+!/public/data/raw-data/README.md
