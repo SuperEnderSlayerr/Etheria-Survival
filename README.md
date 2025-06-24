@@ -82,16 +82,12 @@ The app will be available at `http://localhost:3000`
 
 ### Data Setup
 
-**Important**: The Discord log files are not included in this repository for privacy reasons. You have two options to use the calculator:
+**Privacy Model**: The Discord log files are excluded from the main repository for privacy, but the deployed version includes real data for full functionality.
 
 #### Option 1: Use the Hosted Version (Recommended)
-Visit [https://superenderslayerr.github.io/Etheria-Survival/](https://superenderslayerr.github.io/Etheria-Survival/) and use the **"Upload Data"** tab to load your Discord log files directly in the browser.
+Visit [https://superenderslayerr.github.io/Etheria-Survival/](https://superenderslayerr.github.io/Etheria-Survival/)
 
-**Benefits:**
-- No setup required
-- Files processed locally (privacy-safe)
-- Works on any device with a browser
-- Instant data switching
+The hosted version includes processed Discord log data and works immediately with full functionality. If you want to use your own server's data, use the **"Upload Data"** tab to load your Discord log files directly in the browser.
 
 #### Option 2: Local Development
 For users running the app locally:
@@ -107,13 +103,21 @@ For users running the app locally:
    - `valley-of-fire.txt`
    - `whispering-grove.txt`
 
+#### For Developers: Deployment with Data
+If you're forking this project and want to deploy with your own server data:
+
+```bash
+# Deploy with your txtData files included (they won't be in main repo)
+npm run deploy-with-data
+```
+
+This command builds the app and includes files from `public/txtData/` in the deployment while keeping them out of the main repository.
+
 #### How to Export Discord Logs
 1. Use a Discord export tool like [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
 2. Export each survival location channel as a .txt file
 3. Rename the files to match the expected names listed above
 4. Either upload them via the web interface or place them in `public/txtData/` for local development
-
-**Without these files**, the calculator will use sample data for demonstration but won't reflect your actual server's encounters.
 
 ### Building for Production
 ```bash
