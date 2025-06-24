@@ -111,20 +111,6 @@ If you want to use data from your own Discord server:
 
 **Privacy Note**: Private Discord messages are excluded from the public repository but included in the deployed version for functionality.
 
-#### Option 2: Local Development
-For users running the app locally:
-
-1. **Discord log files**: Export your server's survival channel logs as .txt files
-2. **Place them in**: `public/txtData/` directory
-3. **Required files**:
-   - `boiling-coast.txt`
-   - `bubblin-bayou.txt` 
-   - `flaring-mountains.txt`
-   - `redwood-glades.txt`
-   - `scarlet-hills.txt`
-   - `valley-of-fire.txt`
-   - `whispering-grove.txt`
-
 #### For Developers: Deployment with Data
 If you're forking this project and want to deploy with your own server data:
 
@@ -134,12 +120,6 @@ npm run deploy-with-data
 ```
 
 This command builds the app and includes files from `public/txtData/` in the deployment while keeping them out of the main repository.
-
-#### How to Export Discord Logs
-1. Use a Discord export tool like [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
-2. Export each survival location channel as a .txt file
-3. Rename the files to match the expected names listed above
-4. Either upload them via the web interface or place them in `public/txtData/` for local development
 
 ### Building for Production
 ```bash
@@ -206,23 +186,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🔄 Historical trend analysis
 - 🔄 Optimal party composition suggestions
 - 🔄 Mobile app version
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
