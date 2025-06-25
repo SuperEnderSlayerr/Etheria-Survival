@@ -1,0 +1,26 @@
+# Sample Discord Log - Boiling Coast
+# This is anonymized sample data to demonstrate the app functionality
+# Real Discord logs containing private messages are not included in this repository
+
+[2024-01-20 09:15:10] GameMaster: Rolling for fishing at Boiling Coast...
+[2024-01-20 09:15:11] GameMaster: **Fishing Roll:** DC 13 | Roll: 16 | **Success!**
+[2024-01-20 09:15:11] GameMaster: You caught: 1x Sea Bass, 2x Small Fish
+[2024-01-20 09:15:18] Player3: The coast is definitely more productive for fishing!
+
+[2024-01-20 10:45:22] GameMaster: Rolling for aquatic hunting...
+[2024-01-20 10:45:23] GameMaster: **Hunt Aquatic Roll:** AC 15 | Attack: 17 | **Hit!**
+[2024-01-20 10:45:23] GameMaster: You successfully caught: 1x Large Fish, 1x Shellfish
+[2024-01-20 10:45:30] Player1: These coastal waters are rich!
+
+[2024-01-20 12:20:15] GameMaster: Rolling for foraging along the coast...
+[2024-01-20 12:20:16] GameMaster: **Foraging Roll:** DC 14 | Roll: 11 | **Failure**
+[2024-01-20 12:20:16] GameMaster: The rocky coast yields nothing this time.
+
+[2024-01-20 14:35:40] GameMaster: Rolling for fishing...
+[2024-01-20 14:35:41] GameMaster: **Fishing Roll:** DC 13 | Roll: 20 | **Critical Success!**
+[2024-01-20 14:35:41] GameMaster: You caught: 1x Rare Fish, 2x Sea Bass, 1x Shellfish
+[2024-01-20 14:35:48] Player2: What a catch!
+
+[2024-01-20 16:10:25] GameMaster: Rolling for aquatic hunting...
+[2024-01-20 16:10:26] GameMaster: **Hunt Aquatic Roll:** AC 15 | Attack: 12 | **Miss**
+[2024-01-20 16:10:26] GameMaster: The creature escapes back into the depths.

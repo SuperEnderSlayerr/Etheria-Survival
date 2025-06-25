@@ -21,7 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Discord log files containing private messages
-/public/txtData/
-*.txt
